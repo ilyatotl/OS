@@ -14,7 +14,7 @@ int main(int argc, char *argv[]) {
     int msgCnt = 2;
 
 
-    char* pipeToRead = "second_read";
+    char* pipeToRead = "first_write";
     char* pipeToWrite = "second_write";
     if (argc == 3) {
         pipeToRead = argv[1];

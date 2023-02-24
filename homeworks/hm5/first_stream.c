@@ -12,7 +12,7 @@ int main(int argc, char *argv[]) {
     char msg[3][64] = {"Hello, second!", "Good bye, second!"};
     int msgCnt = 2;
 
-    char* pipeToRead = "first_read";
+    char* pipeToRead = "second_write";
     char* pipeToWrite = "firat_write";
     if (argc == 3) {
         pipeToRead = argv[1];
